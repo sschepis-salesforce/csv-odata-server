@@ -9,6 +9,6 @@ configuration settings live in config.js
 
 Now you can try requests like:<br/>
 GET [http://localhost:1337/$metadata]()<br/>
-GET [http://localhost:1337/users?$orderby=LastName desc]()<br/>
-GET [http://localhost:1337/users/$count]()<br/>
+GET [http://localhost:1337/leads?$orderby=LastName desc]()<br/>
+GET [http://localhost:1337/leads/$count]()<br/>
 POST, PATCH, DELETE
